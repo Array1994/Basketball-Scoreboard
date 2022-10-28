@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Akintola Ayobami">
+    <meta name="Description" content="This an app that display a basketball scoreboard">
+    <title>BasketBall Scoreboard</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="basketImg.jpg" type="image/x-icon">
+    
+</head>
+<body>
+    
+    <div id='containerbig'>
+        <p> BasketBall Scoreboard</p>
+        <div class='container'>
+            <p id="good">HOME</p>
+            <div class='container2'>
+                <p class="font-used" id="home">0</p>
+            </div>
+            <button onclick='btnh1()'class="increament"> +1</button>
+            <button onclick='btnh2()'class="increament"> +2</button>
+            <button onclick='btnh3()'class="increament"> +3</button>
+            <br>
+            
+        </div>
+        <div class='container'>
+            <p>GUEST</p>
+            <div class='container2'>
+                <p class="font-used" id="guest">0</p>
+            </div>
+            <button onclick='btng1()'class="increament"> +1</button>
+            <button onclick='btng2()'class="increament"> +2</button>
+            <button onclick='btng3()'class="increament"> +3</button>
+            <br>
+           
+        </div>
+        <div class="container3">
+            <button type="button" onclick="newGame()">New Game</button>
+            
+        </div>
+        <div class="container3">
+            <span id="win"></span>
+            <span id="win2"></span>
+        </div>
+        <script src="index.js">
+            
+        </script>
+    </div>
+</body>
+</html>
